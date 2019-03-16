@@ -2,3 +2,9 @@ __pycache__
 env/
 
 rasa_core.log
+.idea/
+.pytest_cache/
+models/
+story_graph.dot
+tests/.pytest_cache/
+tests/models/
