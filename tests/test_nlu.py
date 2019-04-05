@@ -8,7 +8,7 @@ def test_nlu_interpreter():
     trainer = Trainer(config.load("nlu_config.yml"))
     interpreter = trainer.train(training_data)
     test_interpreter_dir = trainer.persist("./tests/models", project_name="nlu")
-    parsing = interpreter.parse('hello')
+    parsing = interpreter.parse("hello")
 
-    assert parsing['intent']['name'] == 'greet'
+    assert parsing["intent"]["name"] == "greet"
     assert test_interpreter_dir
