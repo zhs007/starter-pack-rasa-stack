@@ -22,4 +22,4 @@ jobs:
   - stage: test
     name: "Black Formatting"
     python: 3.6
-    script: pip install black; black --config starter-pack.toml --check
+    script: pip install black; black --config starter-pack.toml --check .

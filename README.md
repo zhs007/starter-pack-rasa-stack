@@ -101,8 +101,11 @@ Let us know how you are getting on with Rasa Stack and what have you built! Join
 To ensure a standardized code style we use the formatter [black](https://github.com/ambv/black).
 If your code is not formatted properly, travis will fail to build.
 
-To install black run `pip install black`.
+If you want to automatically format your code on every commit, you can use [pre-commit](https://pre-commit.com/).
+Just install it via `pip install pre-commit` and execute `pre-commit install`.
+
+If you want to set it up manually, install black via `pip install black`.
 To reformat files execute
 ```
-black --config starter-pack.toml .
+black --config rasa_platform.toml .
 ```
