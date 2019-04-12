@@ -58,7 +58,7 @@ This starter-pack contains some training data and the main files which you can u
 language: "en"
 
 pipeline: spacy_sklearn
-```	
+```
 
 ### Files for Rasa Core model
 
@@ -95,3 +95,17 @@ This starter-pack lets you build a simple assistant which can tell Chuck Norris 
 
 
 Let us know how you are getting on with Rasa Stack and what have you built! Join the [Rasa Community Forum](https://forum.rasa.com) and share your experience with us!
+
+## Code Style
+
+To ensure a standardized code style we use the formatter [black](https://github.com/ambv/black).
+If your code is not formatted properly, travis will fail to build.
+
+If you want to automatically format your code on every commit, you can use [pre-commit](https://pre-commit.com/).
+Install it via `pip install pre-commit` and execute `pre-commit install`.
+
+If you want to set it up manually, install black via `pip install black`.
+To reformat files execute
+```
+black .
+```
