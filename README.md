@@ -102,7 +102,7 @@ To ensure a standardized code style we use the formatter [black](https://github.
 If your code is not formatted properly, travis will fail to build.
 
 If you want to automatically format your code on every commit, you can use [pre-commit](https://pre-commit.com/).
-Just install it via `pip install pre-commit` and execute `pre-commit install`.
+Install it via `pip install pre-commit` and execute `pre-commit install`.
 
 If you want to set it up manually, install black via `pip install black`.
 To reformat files execute
