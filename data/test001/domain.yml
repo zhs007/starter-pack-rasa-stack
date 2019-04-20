@@ -61,3 +61,6 @@ templates:
   
   utter_dtdata:
   - text: "Do you want to know which day's data?"
+
+  utter_dtdatadate:
+  - text: "OK, {datetime}."  

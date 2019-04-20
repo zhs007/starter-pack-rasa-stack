@@ -20,4 +20,8 @@
 
 ## story_dtdata
 * dtdata{"dtdata":"dt data"}
- - utter_dtdatafull
+ - utter_dtdata
+
+## story=dtdatadate
+* dtdatadatatime{"datetime": "today"}
+ - utter_dtdatadate
