@@ -35,12 +35,6 @@
 * updateserv{"server":"gameserver"}
  - utter_updateserv
 
-## story_dtdatafull
-* dtdatafull{"dtdata":"dt game data", "datetime": "today"}
- - utter_dtdatafull
-
 ## story_dtdata
-* dtdata{"dtdata":"dt game data"}
- - utter_dtdata
-* dtdatadatatime{"datetime":"2019-04-17"}
+* dtdata{"dtdata":"dt data"}
  - utter_dtdatafull

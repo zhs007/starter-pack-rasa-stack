@@ -136,6 +136,7 @@
 
 ## intent:dtdata
 - Can you tell me the [DT data](dtdata)?
+- Can I know the [DT game data](dtdata)?
 
 ## intent:dtdatadatatime
 - [today](datetime)

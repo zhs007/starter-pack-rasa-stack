@@ -24,7 +24,7 @@ slots:
   server:
     type: text
   dtdata:
-    type: text
+    type: unfeaturized
   datetime:
     type: text
 
@@ -58,7 +58,7 @@ templates:
   - text: "OK. I will update the {server}."
 
   utter_dtdatafull:
-  - text: "OK. I will tell you the {dtdata} on {datetime}."
+  - text: "OK. I will tell you the {dtdata}."
   
   utter_dtdata:
   - text: "Do you want to know which day's data?"
