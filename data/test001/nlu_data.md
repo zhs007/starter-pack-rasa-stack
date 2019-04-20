@@ -117,10 +117,6 @@
 - Update the [core server](server) please
 - Please Update the [game service](server)
 
-## intent:dtdatafull
-- Can you tell me the [DT data](dtdata) on [April 19th](datetime)?
-- Can I know [today](datetime)'s [DT business data](dtdata)?
-
 ## intent:dtdata
 - Can you tell me the [DT data](dtdata)?
 - Can I know the [DT game data](dtdata)?
