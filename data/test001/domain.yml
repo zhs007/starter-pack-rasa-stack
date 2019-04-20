@@ -3,7 +3,6 @@ intents:
 - goodbye
 - thanks
 - deny
-- joke
 - name
 - updateserv
 - dtdatafull

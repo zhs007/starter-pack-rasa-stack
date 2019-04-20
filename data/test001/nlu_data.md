@@ -109,19 +109,6 @@
 - name is [Pari](name)
 - name [Sanjay](name)
 
-
-## intent:joke
-- Can you tell me a joke?
-- I would like to hear a joke
-- Tell me a joke
-- A joke please
-- Tell me a joke please
-- I would like to hear a joke
-- I would loke to hear a joke, please
-- Can you tell jokes?
-- Please tell me a joke
-- I need to hear a joke
-
 ## intent:updateserv
 - Can you help me update the [gameserver](server)?
 - Can I update the [game server](server)?
@@ -130,14 +117,6 @@
 - Update the [core server](server) please
 - Please Update the [game service](server)
 
-## intent:dtdatafull
-- Can you tell me the [DT data](dtdata) on [April 19th](datetime)?
-- Can I know [today](datetime)'s [DT game data](dtdata)?
-
 ## intent:dtdata
 - Can you tell me the [DT data](dtdata)?
 - Can I know the [DT game data](dtdata)?
-
-## intent:dtdatadatatime
-- [today](datetime)
-- [April 19th](datetime)
