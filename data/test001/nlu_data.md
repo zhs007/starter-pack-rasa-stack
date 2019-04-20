@@ -124,8 +124,8 @@
 
 ## intent:updateserv
 - Can you help me update the [gameserver](server)?
-- Can I update the [gameserver](server)?
-- I want to update the [gameserver](server)
-- I need to update the [gameserver](server)
-- Update the [gameserver](server) please
-- Please Update the [gameserver](server)
+- Can I update the [game server](server)?
+- I want to update the [web server](server)
+- I need to update the [main server](server)
+- Update the [core server](server) please
+- Please Update the [game service](server)
