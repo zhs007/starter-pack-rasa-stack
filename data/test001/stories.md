@@ -32,5 +32,5 @@
  - utter_goodbye 
 
 ## story_updateserv
-* updateserv
+* updateserv{"server":"gameserver"}
  - utter_updateserv
