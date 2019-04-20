@@ -6,17 +6,26 @@ intents:
 - joke
 - name
 - updateserv
+- dtdatafull
+- dtdata
+- dtdatadatatime
 
 
 entities:
 - name
 - server
+- dtdata
+- datetime
 
 
 slots:
   name:
     type: text
   server:
+    type: text
+  dtdata:
+    type: text
+  datetime:
     type: text
 
 actions:
@@ -26,6 +35,8 @@ actions:
 - utter_goodbye
 - action_joke
 - utter_updateserv
+- utter_dtdatafull
+- utter_dtdata
 
 
 templates:
@@ -45,3 +56,9 @@ templates:
   
   utter_updateserv:
   - text: "OK. I will update the {server}."
+
+  utter_dtdatafull:
+  - text: "OK. I will tell you the {dtdata} on {datetime}."
+  
+  utter_dtdata:
+  - text: "Do you want to know which day's data?"
