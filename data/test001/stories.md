@@ -23,7 +23,3 @@
  - utter_dtdata
 * inform{"datetime": "today"}
  - utter_dtdatafull
-
-## story=dtdatadate
-* inform{"datetime": "today"}
- - utter_dtdatadate
