@@ -125,7 +125,7 @@
 - I want to check [DT data report](dtdata).
 
 ## intent:inform
-- I want to get [today](datetime) data.
+- I want to get [today](datetime)'s data.
 - I want to get data on [April 19th](datetime).
 - [yesterday](datetime).
 - [2019-04-17](datetime).

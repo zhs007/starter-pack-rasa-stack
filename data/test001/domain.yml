@@ -58,7 +58,7 @@ templates:
   - text: "OK. I will update the {server}."
 
   utter_dtdatafull:
-  - text: "OK. I will tell you the {dtdata}."
+  - text: "OK. I will tell you the {dtdata} on {datetime}."
   
   utter_dtdata:
   - text: "Do you want to know which day's data?"
