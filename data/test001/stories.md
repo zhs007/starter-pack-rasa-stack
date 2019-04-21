@@ -18,8 +18,12 @@
 * updateserv{"server":"gameserver"}
  - utter_updateserv
 
-## story_dtdata
-* dtdata{"dtdata":"dt data"}
+## story_dtdata1
+* inform{"dtdata":"dt data"}
  - utter_dtdata
 * inform{"datetime": "today"}
+ - utter_dtdatafull
+
+## story_dtdata2
+* inform{"dtdata":"dt data", "datetime": "today"}
  - utter_dtdatafull
