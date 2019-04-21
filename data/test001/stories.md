@@ -21,7 +21,9 @@
 ## story_dtdata
 * dtdata{"dtdata":"dt data"}
  - utter_dtdata
+* inform{"datetime": "today"}
+ - utter_dtdatafull
 
 ## story=dtdatadate
-* dtdatadatatime{"datetime": "today"}
+* inform{"datetime": "today"}
  - utter_dtdatadate

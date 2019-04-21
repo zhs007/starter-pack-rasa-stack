@@ -7,7 +7,7 @@ intents:
 - updateserv
 - dtdatafull
 - dtdata
-- dtdatadatatime
+- inform
 
 
 entities:

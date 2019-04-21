@@ -120,7 +120,13 @@
 ## intent:dtdata
 - Can you tell me the [DT data](dtdata)?
 - Can I know the [DT game data](dtdata)?
+- I want to know [DT business data](dtdata).
+- I want to view [DT data](dtdata).
+- I want to check [DT data report](dtdata).
 
-## intent:dtdatadatatime
+## intent:inform
 - I want to get [today](datetime) data.
 - I want to get data on [April 19th](datetime).
+- [yesterday](datetime).
+- [2019-04-17](datetime).
+- [Today](datetime)'s data.
